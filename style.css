@@ -1,0 +1,126 @@
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-container{
+    background-color: white;
+    width: 380px;
+    height: 600px;
+    border-radius: 25px;
+
+    
+}
+.main-image img{
+    display: flex;
+    width: 380px;
+    height: 200px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.summary p{
+    width: 280px;
+    height: auto;
+    text-align: center;
+    font-weight: bold;
+    color: #787d90;
+    font-size: 13px;
+
+}
+h2{
+    font-weight: 900;
+    color:#454f68
+}
+.price-section{
+    display: flex;
+    background-color: #f8f9fe;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    height: 90px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+.annual-plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+    margin-bottom: 10px;
+    color: #787d90;
+    font-weight: 900;
+}
+.annual-plan p{
+    color: #2c3151;
+}
+a{
+    font-weight: 900;
+    color: #473cb9;
+}
+.payment-subsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.payment-subsection img{
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+}
+
+.payment-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#proceed-button{
+    width: 310px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #382ae1;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 4px 10px #f7f6f6;
+}
+
+#cancel-button{
+    width: 310px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: #76829a;
+    background-color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#proceed-button:active{
+    background-color: #766cf1;
+}
+#cancel-button:active{
+    color: #574be0;
+}
+a:active{
+    color: #788596;
+}
